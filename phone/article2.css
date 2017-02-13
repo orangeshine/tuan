@@ -1,0 +1,161 @@
+html
+{
+    font-size:16px;
+}
+body {
+    width: 640px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    font-size: 16px;
+}
+white-space
+{
+    pre;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.header {
+    top: 0px;
+    display: block;
+    background: #fff;
+    z-index: 999;
+    width: 640px;
+    border-bottom: 1px solid #bbbbbb;
+}
+.post-time {
+    color: #a0a0a0;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+#logo {
+    font-weight: bold;
+    color: #FF5722;
+    padding: 15px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    ;
+}
+
+#logo img {
+    height: 70px;
+}
+
+.search {
+    display: inline-block;
+}
+
+#searchform input {
+    font-size: 1.5rem;
+    color: #717171;
+    padding: 2px 10px;
+    border: 1px solid #d2d2d2;
+    height: 60px;
+    width: 410px;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+}
+
+#searchform button,
+#searchform #searchsubmit {
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    width: 80px;
+    height: 36px;
+    outline: none;
+    color: #717171;
+}
+
+.main_content {
+    min-height: 420px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    ;
+}
+.main_content h2 {
+    font-size: 28px;
+    max-width: 38rem;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.main_content p {
+    font-size: 1em;
+    line-height: 40px;
+}
+
+.main_content img {
+    max-width: 620px;
+}
+
+.pricetag {
+    position: absolute;
+    top: -50px;
+    height: 50px;
+    left: 0;
+    z-index: 1099;
+    color: #fff;
+    font-size: 28px;
+    width: 640px;
+    background: rgba(0, 0, 0, 0.58);
+    text-align: center;
+}
+
+.pricetag span {
+    margin-top: 7px;
+}
+
+.pricetag .biaoti {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+
+.pricetag .prices {
+    width: 12%;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+    ;
+}
+#site_info {
+        width: 300px;
+        color: #dedede;
+        margin: 80px auto 0;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    #site_info span {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .info_phone {
+        font-size: 1.5em;
+        color: #d0d0d0;
+    }
+    
+    #info_title {
+        font-size: 3.3em;
+        font-weight: bold;
+    }
+    #site_info a
+    {
+        color:#d0d0d0;
+    }
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}

@@ -1,0 +1,314 @@
+body
+{
+	width:640px;
+	margin:0 auto;
+	font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+	font-size: 16px;
+}
+ul
+{
+	padding:0;
+}
+ul li
+{
+	list-style: none;
+}
+.clearfix
+{
+	overflow: auto;
+	zoom:1;
+}
+.header
+{
+    top: 0px;
+    display: block;
+    background: #fff;
+    z-index: 999;
+    width: 640px;
+    border-bottom: 1px solid #bbbbbb;
+}
+#logo
+{
+    font-weight: bold;
+    color: #FF5722;
+    padding: 15px 20px;
+    display: inline-block;
+    vertical-align: middle;;
+}
+#logo img
+{
+	height: 70px;
+}
+.search
+{
+	display: inline-block;
+}
+
+#searchform input
+{
+	font-size: 1.3rem;
+	color:#717171;
+	padding: 2px 10px;
+    border: 1px solid #d2d2d2;
+    height: 60px;
+    width: 410px;
+    border-radius: 50px;
+    text-align: center;
+    outline: none;
+}
+
+#searchform button,#searchform #searchsubmit
+{
+	font-size: 1.5rem;
+	border: none;
+    background: none;
+    width: 80px;
+    height: 36px;
+    outline: none;
+    color:#717171;
+}
+
+.container
+{
+	padding: 5px;
+	background-color:#f5f5f5;
+	margin-bottom: 92px;
+	/* #f5f5f5;  */
+}
+.jianjie
+{
+	background-color: #fff;
+	padding:20px 10px;
+	margin-bottom:10px;
+}
+.nav
+{
+	font-size: 24px;
+}
+h2
+{
+	font-size: 1.3rem;
+	margin-top: 0;
+	letter-spacing:1px;
+	font-weight: 400;
+
+}
+.yinyu
+{
+	font-size: 1.5rem;
+	color:#a9a9a9;
+	width: 24em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.lowerprice
+{
+	font-size: 1.5rem;
+	color:#ff4e00;
+}
+.discription
+{
+	margin:20px 0;
+}
+.discription:last-child
+{
+	margin-bottom: 0;
+}
+.anpai
+{
+	border-top:1px dashed #a9a9a9;
+	padding-top: 20px;
+	margin:20px 0 0 0;
+}
+.discription h5
+{
+	display: inline-block;
+	margin:0;
+	color:#000;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+.discription span
+{
+	font-size: 1.5rem;
+	display: inline-block;
+	text-align: center;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-right:20px;
+	color:#ff4e00;
+}
+.discription .route
+{
+	font-size: 1.5rem;
+	display: inline-block;
+	margin:0 0 0 30px;
+}
+.price
+{
+	margin:0;
+	margin-bottom: -10px !important;
+}
+.price h5
+{
+	width: 100%;
+	border-bottom:1px dashed #a9a9a9;
+	padding-bottom: 20px;
+}
+.price table
+{
+	margin-top:10px;
+	width:620px;
+	text-align: center;
+}
+.price td
+{
+	font-size: 1.5rem;
+	padding:10px 20px;
+}
+.price .table_price
+{
+	color:#ff4e00;
+}
+.nav ul
+{
+	margin:0;
+	display: flex;
+    justify-content: space-between;
+}
+.nav li
+{
+	display: inline-block;
+    color: #797979;
+}
+.jianjie h3
+{
+	font-size: 1.2em;
+	border-radius: 10px;
+	background: #3e3e3e;
+	color: #fff;
+	margin: 0 0 20px 0;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px;
+	font-weight: 400;
+}
+.jianjie img
+{
+	max-width: 610px;
+	margin:20px 0;
+}
+.details
+{
+	border-top: 1px dashed #a9a9a9;
+	font-size:1rem !important;
+}
+.jieshao .iconfont
+{
+		font-size: 3rem;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.jiehsao_head
+{
+	border-top: 1px dashed #a9a9a9;
+}
+.jiehsao_head span
+{
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+}
+.jiehsao_head .dijitian
+{
+	margin-top: 10px;
+	float:left;
+}
+.jiehsao_head .jieshao_jt
+{
+	float:right;
+}
+.food_house .yongcan
+{
+	margin:20px 0;
+}
+.jiaotong
+{
+	margin:20px 0;
+}
+.food_house .yongcan span
+{
+	margin-right:20px;
+}
+.icon-shapewarmspring
+{
+	color:#ff5722;
+}
+.icon-shapehotel
+{
+	color:#ffc107;
+}
+.icon-shapebus
+{
+	color:#8fe22e;
+}
+#feiyong .details
+{
+	text-align: left;
+}
+#feiyong .details h4
+{
+	text-align: left;
+	margin-top: 30px;
+}
+#feiyong li
+{
+	margin-top:20px;
+}
+.bottom_bm
+{
+	position: fixed;
+	bottom:0;
+	width: 640px;
+	text-align: center;
+	background-color: #ff4e00;
+  letter-spacing: 1px;
+	padding: 25px 0;
+	text-decoration: none;
+	font-size: 2em;
+	color:#fff;
+}
+#site_info {
+        width: 300px;
+        color: #dedede;
+        margin: 80px auto 0;
+		padding-left: 50px;
+        text-align: left;
+    }
+    
+    #site_info span {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .info_phone {
+        font-size: 1.5em;
+        color: #d0d0d0;
+    }
+    
+    #info_title {
+        font-size: 3.3em;
+        font-weight: bold;
+    }
+    #site_info a
+    {
+        color:#d0d0d0;
+    }
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
